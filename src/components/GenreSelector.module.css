@@ -1,0 +1,30 @@
+
+.genreSelector {
+  text-align: center;
+}
+
+.genreList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.genreItem {
+  margin: 5px;
+}
+
+.genreButton {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.genreButton:hover {
+  background-color: #2980b9;
+}
